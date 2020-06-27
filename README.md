@@ -6,6 +6,10 @@ description: >-
 
 # Repositório dos Cursos do Site Loiane.training
 
+### Sobre:
+
+
+
 ### Programas utilizados:
 
 * [Netbeans 8.2](https://netbeans.org/downloads/8.2/rc/)
@@ -15,6 +19,7 @@ description: >-
 ### Sites acessados:
 
 * [https://loiane.training/](https://loiane.training/)
-* 
+* [Curso De Java Gratuito](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)
+
 
 
