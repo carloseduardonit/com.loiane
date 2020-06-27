@@ -1,12 +1,20 @@
 ---
 description: >-
-  Este repositório ficara responsável por armazenar todos os curso que sera
-  feitos
+  Este repositório ficara responsável por armazenar todos os curso que sera 
+  feitos  com a professora Loiane
 ---
 
-# Repositório dos Cursos do Site loiane.training
+# Repositório dos Cursos do Site Loiane.training
 
-### Programa utilizado:
+### Programas utilizados:
 
-* [Netbeans 8.1](https://netbeans.org/downloads/8.2/rc/)
+* [Netbeans 8.2](https://netbeans.org/downloads/8.2/rc/)
+* Visual Studio Code
+* Notepad++
+
+### Sites acessados:
+
+* [https://loiane.training/](https://loiane.training/)
+* 
+
 
