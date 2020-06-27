@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula06;
+package cursoBasicodeJava.aula06;
 
 /**
  *
  * @author Carlos
  */
 public class Argumentos {
+
     public static void main(String[] args) {
-        System.out.println("Voce digitou "+args[0]);
+        System.out.println("Voce digitou " + args[0]);
     }
 }
