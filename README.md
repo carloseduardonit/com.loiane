@@ -6,11 +6,19 @@ description: >-
 
 # Repositório dos Cursos do Site Loiane.training
 
-|  |  |  |  |  |
-| :--- | :--- | :--- | :---: | :--- |
-|  |  |  |  |  |
+{% tabs %}
+{% tab title="First Tab" %}
+{% hint style="info" %}
 
-![](.gitbook/assets/10610717_723738981035566_6227704356695997226_n.jpg)
+{% endhint %}
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+![](.gitbook/assets/linkedin.png)
 
 ### Sobre:
 
