@@ -12,14 +12,14 @@ description: >-
 
 ### Programas utilizados:
 
-* [Netbeans 8.2](https://netbeans.org/downloads/8.2/rc/)
-* Visual Studio Code
-* Notepad++
+* \*\*\*\*[**Netbeans 8.2**](https://netbeans.org/downloads/8.2/rc/)\*\*\*\*
+* \*\*\*\*[**Visual Studio Code**](https://code.visualstudio.com/download)\*\*\*\*
+* \*\*\*\*[**Notepad++**](https://notepad-plus-plus.org/downloads/)\*\*\*\*
 
 ### Sites acessados:
 
-* [https://loiane.training/](https://loiane.training/)
-* [Curso De Java Gratuito](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)
+* \*\*\*\*[**https://loiane.training/**](https://loiane.training/)\*\*\*\*
+* \*\*\*\*[**Curso De Java Gratuito**](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)\*\*\*\*
 
 
 
