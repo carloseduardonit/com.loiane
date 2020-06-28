@@ -13,9 +13,13 @@ public static void main(String[] args){
 }
 ```
 
+|  |  |
+| :--- | :--- |
+|  |  |
+
 ### Sobre:
 
-Repositório é responsável pela ampliação dos meus conhecimentos voltado a programação em Java com a tutoria [Loiane Groner](https://github.com/loiane).
+Repositório é responsável pela ampliação dos meus conhecimentos voltado a programação em Java com a tutoria [Loiane Groner](https://github.com/loiane).  Eu já tinha feito este curso básico mas perdi tudo... Fazer o que não usava versionamento. 
 
 ### Programas utilizados:
 
@@ -23,11 +27,16 @@ Repositório é responsável pela ampliação dos meus conhecimentos voltado a p
   * **JDK 1.8**
 * \*\*\*\*[**Visual Studio Code**](https://code.visualstudio.com/download)\*\*\*\*
 * \*\*\*\*[**Notepad++**](https://notepad-plus-plus.org/downloads/)\*\*\*\*
+* **GitHub  De**
 
 ### Sites acessados:
 
 * \*\*\*\*[**https://loiane.training/**](https://loiane.training/)\*\*\*\*
 * \*\*\*\*[**Curso De Java Gratuito**](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)\*\*\*\*
+
+### Imagem adicionado:
+
+* [**autor: freepik**](https://www.flaticon.com/br/autores/freepik)\*\*\*\*
 
 
 
