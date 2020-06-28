@@ -6,19 +6,12 @@ description: >-
 
 # Repositório dos Cursos do Site Loiane.training
 
-{% tabs %}
-{% tab title="First Tab" %}
-{% hint style="info" %}
-
-{% endhint %}
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
-![](.gitbook/assets/linkedin.png)
+```java
+public static void main(String[] args){
+    System.out.println("Hello, welcome to my GitHuB");
+    System.out.println("Ola, seja bem vindo ao meu GitHuB");
+}
+```
 
 ### Sobre:
 
