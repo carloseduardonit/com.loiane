@@ -19,7 +19,7 @@ public static void main(String[] args){
 
 ### Sobre:
 
-Repositório é responsável pela ampliação dos meus conhecimentos voltado a programação em Java com a tutoria [Loiane Groner](https://github.com/loiane).  Eu já tinha feito este curso básico mas perdi tudo... Fazer o que não usava versionamento. 
+Repositório é responsável pela ampliação dos meus conhecimentos voltado a programação em Java com a tutoria [Loiane Groner](https://github.com/loiane).  Eu já tinha feito este curso básico mas perdi tudo... Fazer o que não usava versionamento de código. 
 
 ### Programas utilizados:
 
@@ -27,7 +27,7 @@ Repositório é responsável pela ampliação dos meus conhecimentos voltado a p
   * **JDK 1.8**
 * \*\*\*\*[**Visual Studio Code**](https://code.visualstudio.com/download)\*\*\*\*
 * \*\*\*\*[**Notepad++**](https://notepad-plus-plus.org/downloads/)\*\*\*\*
-* **GitHub  De**
+* \*\*\*\*[**GitHub Desktop**](https://desktop.github.com/)\*\*\*\*
 
 ### Sites acessados:
 
