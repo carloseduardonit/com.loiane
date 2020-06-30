@@ -23,11 +23,17 @@ Repositório é responsável pela ampliação dos meus conhecimentos voltado a p
 
 ### Programas utilizados:
 
+#### Para Codifocar:
+
 * \*\*\*\*[**Netbeans 8.2**](https://netbeans.org/downloads/8.2/rc/)\*\*\*\*
   * **JDK 1.8**
 * \*\*\*\*[**Visual Studio Code**](https://code.visualstudio.com/download)\*\*\*\*
 * \*\*\*\*[**Notepad++**](https://notepad-plus-plus.org/downloads/)\*\*\*\*
+
+#### Para Versionamento:
+
 * \*\*\*\*[**GitHub Desktop**](https://desktop.github.com/)\*\*\*\*
+  * **GitBook**
 
 ### Sites acessados:
 
