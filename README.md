@@ -7,15 +7,16 @@ description: >-
 # Repositório dos Cursos do Site Loiane.training
 
 ```java
+Linkedin 
 public static void main(String[] args){
     System.out.println("Hello, welcome to my GitHuB");
     System.out.println("Ola, seja bem vindo ao meu GitHuB");
 }
 ```
 
-|  |  |
-| :--- | :--- |
-|  |  |
+|  ![](.gitbook/assets/linkedin.png) [Linkedin](https://www.linkedin.com/in/carlos-eduardo-dos-s-figueiredo-76128837/) |   |  |
+| :--- | :--- | :--- |
+
 
 ### Sobre:
 
