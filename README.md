@@ -14,8 +14,8 @@ public static void main(String[] args){
 }
 ```
 
-|  ![](.gitbook/assets/linkedin.png) [Linkedin](https://www.linkedin.com/in/carlos-eduardo-dos-s-figueiredo-76128837/_blank) |   |  |
-| :--- | :--- | :--- |
+|  ![](.gitbook/assets/linkedin.png) [Linkedin](https://www.linkedin.com/in/carlos-eduardo-dos-s-figueiredo-76128837/_blank) | ![](.gitbook/assets/twitter.png)[Twitter](https://twitter.com/Carlao_Me_Ajuda) |  |   |  |
+| :--- | :--- | :--- | :--- | :--- |
 
 
 ### Sobre:
