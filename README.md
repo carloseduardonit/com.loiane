@@ -24,7 +24,10 @@ Repositório é responsável pela ampliação dos meus conhecimentos voltado a p
 
 ### Programas utilizados:
 
-#### Para Codifocar:
+#### Para Logica:
+
+* 
+#### Para Codificar:
 
 * \*\*\*\*[**Netbeans 8.2**](https://netbeans.org/downloads/8.2/rc/)\*\*\*\*
   * **JDK 1.8**
