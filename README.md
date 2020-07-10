@@ -34,7 +34,7 @@ Repositório é responsável pela ampliação dos meus conhecimentos voltado a p
 #### Para Versionamento:
 
 * \*\*\*\*[**GitHub Desktop**](https://desktop.github.com/)\*\*\*\*
-  * **GitBook**
+  * \*\*\*\*[**GitBook**](https://app.gitbook.com/)
 
 ### Sites acessados:
 
