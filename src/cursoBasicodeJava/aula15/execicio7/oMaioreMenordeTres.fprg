@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-10 06:53:19 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwOTozNToxOCAiOzI5MTI="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTEwOyIwNjo1MzoxOSAiOzg7MzAxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, numero1, numero2, maior, menor" type="Integer" array="False" size=""/>
+            <assign variable="maior" expression="0"/>
+            <assign variable="menor" expression="100"/>
+            <output expression="&quot;Informe 1&#176; numero:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <output expression="&quot;Informe 2&#176; numero:&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;Informe 3&#176; numero:&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <assign variable="maior" expression="eMaior(maior,numero)"/>
+            <assign variable="maior" expression="eMaior(maior,numero1)"/>
+            <assign variable="maior" expression="eMaior(maior,numero2)"/>
+            <assign variable="menor" expression="eMenor(menor,numero)"/>
+            <assign variable="menor" expression="eMenor(menor,numero1)"/>
+            <assign variable="menor" expression="eMenor(menor,numero2)"/>
+            <call expression="imprimir(maior,menor)"/>
+        </body>
+    </function>
+    <function name="eMaior" type="Integer" variable="maior">
+        <parameters>
+            <parameter name="maior" type="Integer" array="False"/>
+            <parameter name="numero" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <if expression="maior&gt;=numero">
+                <then>
+                    <assign variable="maior" expression="maior"/>
+                </then>
+                <else>
+                    <assign variable="maior" expression="numero"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="eMenor" type="Integer" variable="menor">
+        <parameters>
+            <parameter name="menor" type="Integer" array="False"/>
+            <parameter name="numero" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <if expression="menor&gt;=numero">
+                <then>
+                    <assign variable="menor" expression="numero"/>
+                </then>
+                <else>
+                    <assign variable="menor" expression="menor"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="imprimir" type="None" variable="">
+        <parameters>
+            <parameter name="maximo" type="Integer" array="False"/>
+            <parameter name="minimo" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot; O maior numero: &quot;&amp;maximo&amp;&#13;&#10;&quot; O menor numero: &quot;&amp;minimo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

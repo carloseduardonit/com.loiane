@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cursoBasicodeJava.aula05.exec;
+package cursoBasicodeJava.aula11;
 
 /**
  *
  * @author Carlos
- * 1. Criar um arquivo chamado OlaMundo.java;
- * 2.Implementar um programa Java que escreva na tela "Olá Mundo! "
- * 3.Compilar  e Executar o programa
  */
-public class OlaMundo {
+public class TiposPrimitivosChacarter {
+
+    static char o = 111;
+    static char i = 105;
+    static char interrogacao = 0x003f;
+
     public static void main(String[] args) {
-        System.out.println("Ola Mundo !!!");
+        System.out.println("" + o + i + interrogacao);
     }
-    
 }

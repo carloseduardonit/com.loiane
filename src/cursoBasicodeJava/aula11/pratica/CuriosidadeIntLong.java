@@ -3,14 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula06;
+package cursoBasicodeJava.aula11.pratica;
 
 /**
  *
  * @author Carlos
  */
-public class Argumentos {
+public class CuriosidadeIntLong {
+
     public static void main(String[] args) {
-        System.out.println("Voce digitou "+args[0]);
+        int max = Integer.MAX_VALUE;
+        int p = 1;
+        System.out.println(max + p);
     }
 }

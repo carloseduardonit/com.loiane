@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cursoBasicodeJava.aula05;
+package cursoBasicodeJava.aula11;
 
 /**
  *
  * @author Carlos
  */
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello Mundo!!!");
-    }
+public class TipoPrimitivosPontoFlutuante {
+
+    float saldo1 = 10.03f;
+    double saldo2 = 10.03;
 }
