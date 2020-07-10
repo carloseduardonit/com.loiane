@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-09 07:44:23 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwNzozNDowMiAiOzI5MDI="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwNzo0NDoyMyAiOzE7MzAxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="letra" type="String" array="False" size=""/>
+            <output expression="&quot;Informe F ou M:&quot;" newline="True"/>
+            <input variable="letra"/>
+            <if expression="letra = &quot;F&quot;">
+                <then>
+                    <output expression="&quot;Sexo Feminino&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="letra = &quot;M&quot;">
+                        <then>
+                            <output expression="&quot;Sexo Masculino&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Sexo Invalido&quot;" newline="False"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

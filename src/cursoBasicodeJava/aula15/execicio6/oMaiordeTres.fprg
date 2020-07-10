@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-09 10:17:22 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwOTozNToxOCAiOzI5MTI="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIxMDoxNzoyMiAiOzE7MzAwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, numero1, numero2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe 1&#176; numero:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <output expression="&quot;Informe 2&#176; numero:&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;Informe 3&#176; numero:&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <if expression="numero&gt;=numero1">
+                <then>
+                    <if expression="numero&gt;=numero2">
+                        <then>
+                            <output expression="numero" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="numero2" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="numero1&gt;=numero2">
+                        <then>
+                            <output expression="&quot;&quot;&amp;numero1" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="numero2" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
