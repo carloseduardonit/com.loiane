@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value="Fa&#231;a um Programa que pe&#231;a 2 n&#250;meros inteiros e um n&#250;mero real.&#13;&#10;Calcule e mostre:&#13;&#10;a. o produto do dobro do primeiro com metade do segundo .&#13;&#10;b. a soma do triplo do primeiro com o terceiro.&#13;&#10;c. o terceiro elevado ao cubo"/>
+        <attribute name="saved" value="2020-07-18 09:27:03 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE4OyIwODo1ODo0MSAiOzI5MTI="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE4OyIwOToyNzowMyAiOzE7MzAxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <declare name="num3" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o 1 numero Inteiro: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Informe o 2 numero Inteiro: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;Informe o numero com ponto frutuante: &quot;" newline="True"/>
+            <input variable="num3"/>
+            <output expression="&quot;o produto do dobro do primeiro = &quot;&amp;num1&amp;&quot; com metade do segundo = &quot;&amp;num2&amp;&quot; e &quot;&amp;(num1*(num2/2))" newline="True"/>
+            <output expression="&quot;a soma do triplo do primeiro &quot;&amp;num1&amp;&quot; com o terceiro &quot;&amp;num3&amp;&quot; e &quot;&amp;(3*num1+num3)" newline="True"/>
+            <output expression="&quot;o terceiro &quot;&amp;num3&amp;&quot; elevado ao cubo e &quot;&amp;(num3^3)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

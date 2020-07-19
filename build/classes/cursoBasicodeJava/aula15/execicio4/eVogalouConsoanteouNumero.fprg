@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-09 09:05:33 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwODoyNDoyMCAiOzI5MDI="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwOTowNTozMyAiOzE7MzAxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="letra" type="String" array="False" size=""/>
+            <output expression="&quot;Informe uma Letra:&quot;" newline="True"/>
+            <input variable="letra"/>
+            <if expression="letra = &quot;a&quot; || letra=&quot;e&quot;|| letra =&quot;i&quot;|| letra=&quot;o&quot;|| letra =&quot;u&quot;">
+                <then>
+                    <output expression="letra &amp;&quot; e uma vogal.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="letra = &quot;1&quot; || letra=&quot;2&quot;|| letra =&quot;3&quot;|| letra=&quot;4&quot;|| letra =&quot;5&quot;||letra = &quot;6&quot; || letra=&quot;7&quot;|| letra =&quot;8&quot;|| letra=&quot;9&quot;|| letra =&quot;10&quot;">
+                        <then>
+                            <output expression="letra&amp;&quot; e um numero&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="letra &amp;&quot; e uma consoante.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

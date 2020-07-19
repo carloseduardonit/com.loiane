@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-17 09:27:01 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE3OyIwNjozMDoyOCAiOzI5MDQ="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE3OyIwOToyNzowMSAiOzE7MzAxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="farenheit, celsius" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o valor da temperatura em Farenheit&quot;" newline="True"/>
+            <input variable="farenheit"/>
+            <assign variable="celsius" expression="5*(farenheit-32)/9"/>
+            <output expression="&quot;A temperatura Farenheit = &quot; &amp;farenheit" newline="True"/>
+            <output expression="&quot;A temperatura Celsius = &quot; &amp;celsius" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

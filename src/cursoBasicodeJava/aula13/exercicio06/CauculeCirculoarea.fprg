@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-16 06:34:43 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIwNjoxMzo1MyAiOzI5MDI="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIwNjozNDo0MyAiOzE7MzAxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, raio" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o raio&quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="area" expression="pi * raio^2"/>
+            <output expression="&quot;Pi: &quot;&amp;pi" newline="True"/>
+            <output expression="&quot;diametro: &quot;&amp;raio^2" newline="True"/>
+            <output expression="&quot;Area:&quot;&amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -3,11 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cursoBasicodeJava.aula13.exercicio1;
+package cursoBasicodeJava.aula13.exercicio01;
 
 /**
  *
  * @author Carlos
+ *
+ * Faça um Programa que mostre a mensagem "Alo mundo" na tela.
  */
 public class OlaMundo {
 

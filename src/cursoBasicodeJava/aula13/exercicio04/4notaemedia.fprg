@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-16 05:16:16 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIwNDozODowMCAiOzI4OTk="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIwNToxNjoxNiAiOzE7MzAxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="media, nota1, nota2, nota3, nota4" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a 1 Nota&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Informe a 2 Nota&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Informe a 3 Nota&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Informe a 4 Nota&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;1 Trimestre: &quot;&amp;nota1" newline="True"/>
+            <output expression="&quot;2 Trimestre: &quot;&amp;nota2" newline="True"/>
+            <output expression="&quot;3 Trimestre: &quot;&amp;nota3" newline="True"/>
+            <output expression="&quot;4 Trimestre: &quot;&amp;nota4" newline="True"/>
+            <output expression="&quot;Sua Media e:  &quot;&amp;media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
