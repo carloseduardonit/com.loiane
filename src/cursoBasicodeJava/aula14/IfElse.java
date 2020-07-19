@@ -19,7 +19,8 @@ public class IfElse {
         int idade = ler.nextInt();
         if (idade >= 18) {
             System.out.println("E maior de idade");
+        } else {
+            System.out.println("E menor de idade");
         }
-
     }
 }
