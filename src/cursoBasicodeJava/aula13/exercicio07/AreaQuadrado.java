@@ -23,6 +23,8 @@ public class AreaQuadrado {
         System.out.println("\nlado: " + lado
                 + "\nPerimetro: " + perimetro
                 + "\nArea: " + area
-                + "\nDobro da Area: " + 2 * area);
+                + "\nDobro da Area: " + 2 * area
+                + "\nArea: " + Math.pow(lado, 2)
+                + "\nDobro da Area: " + 2 * Math.pow(lado, 2));
     }
 }

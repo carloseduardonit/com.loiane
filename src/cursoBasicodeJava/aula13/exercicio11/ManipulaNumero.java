@@ -6,7 +6,6 @@
 package cursoBasicodeJava.aula13.exercicio11;
 
 import java.util.Scanner;
-import sun.security.tools.KeyStoreUtil;
 
 /**
  * Faça um Programa que peça 2 números inteiros e um número real. Calcule e
@@ -28,7 +27,7 @@ public class ManipulaNumero {
         System.out.println("Informe o numero com ponto frutuante: ");
         num3 = ler.nextDouble();
         System.out.println("o produto do dobro do primeiro = " + num1 + " "
-                + "com metade do segundo = " + num2 + " e " + (num1 * (num2 / 2)));
+                + "com metade do segundo = " + num2 + " e " + ((num1 * 2) * (num2 / 2)));
         System.out.println("a soma do triplo do primeiro " + num1 + " com o terceiro " + num3 + " e " + (3 * num1 + num3));
         System.out.println("o terceiro = " + num3 + " elevado ao cubo e " + Math.pow(num3, 3));
     }

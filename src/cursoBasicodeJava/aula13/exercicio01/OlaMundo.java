@@ -6,10 +6,11 @@
 package cursoBasicodeJava.aula13.exercicio01;
 
 /**
+ * Faça um Programa que mostre a mensagem "Alo mundo" na tela.
  *
  * @author Carlos
  *
- * Faça um Programa que mostre a mensagem "Alo mundo" na tela.
+ *
  */
 public class OlaMundo {
 
