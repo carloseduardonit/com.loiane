@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Carlos"/>
         <attribute name="about" value="Fa&#231;a um Programa que pe&#231;a 2 n&#250;meros inteiros e um n&#250;mero real.&#13;&#10;Calcule e mostre:&#13;&#10;a. o produto do dobro do primeiro com metade do segundo .&#13;&#10;b. a soma do triplo do primeiro com o terceiro.&#13;&#10;c. o terceiro elevado ao cubo"/>
-        <attribute name="saved" value="2020-07-18 09:27:03 "/>
+        <attribute name="saved" value="2020-07-18 09:40:09 "/>
         <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE4OyIwODo1ODo0MSAiOzI5MTI="/>
-        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE4OyIwOToyNzowMyAiOzE7MzAxNQ=="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE4OyIwOTo0MDowOSAiOzI7MzAxNw=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
