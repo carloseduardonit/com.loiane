@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-09 07:22:23 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwNjo0OTozMSAiOzI5MDk="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwNzoyMjoyMyAiOzI7MzAxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1, numero2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe o primeiro:&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;Informe o segundo:&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <if expression="numero1&gt;=numero2">
+                <then>
+                    <output expression="&quot;O primeiro numero &#233; &quot;&amp;numero1&amp;&quot; maior do que segundo que &#233; &quot;&amp;numero2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O segundo numero &#233; &quot;&amp;numero2&amp;&quot; maior do que primeiro que &#233; &quot;&amp;numero1" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

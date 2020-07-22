@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-16 04:26:11 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIwNDoxOTo0NCAiOzI5MDY="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIwNDoyNjoxMSAiOzE7MzAwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="parcela, parcela1, soma" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a 1 Parcela: &quot;" newline="True"/>
+            <input variable="parcela"/>
+            <output expression="&quot;Informe a 2 Parcela: &quot;" newline="True"/>
+            <input variable="parcela1"/>
+            <assign variable="soma" expression="parcela+parcela1"/>
+            <output expression="&quot;A Soma de &quot;&amp; parcela &amp;&quot; + &quot;&amp; parcela1&amp; &quot; = &quot;&amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

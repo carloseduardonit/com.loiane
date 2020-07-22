@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value="Tendo como dados de entrada a altura de uma pessoa, construa um&#13;&#10;algoritmo que calcule seu peso ideal, usando a seguinte f&#243;rmula:&#13;&#10;(72.7*altura) - 58"/>
+        <attribute name="saved" value="2020-07-18 10:26:12 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE4OyIwOTo1NjozNCAiOzI5MTM="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE4OyIxMDoyNjoxMiAiOzI7MzAwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="altura, pesoIdeal" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual a sua altura? &quot;" newline="True"/>
+            <input variable="altura"/>
+            <comment text="Tendo como dados de entrada a altura de uma pessoa, construa um&#13;&#10;algoritmo que calcule seu peso ideal, usando a seguinte f&#243;rmula:&#13;&#10;(72.7*altura) - 58"/>
+            <assign variable="pesoIdeal" expression="72.7*altura-58"/>
+            <output expression="&quot;A sua altura e &quot;&amp;altura" newline="True"/>
+            <output expression="&quot;e seu peso ideal e &quot;&amp;pesoIdeal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

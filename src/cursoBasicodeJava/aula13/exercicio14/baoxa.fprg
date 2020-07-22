@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-19 03:16:41 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE5OyIxMjoyMDoxMSAiOzI4OTQ="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE5OyIwMzoxNjo0MSAiOzI7MzAxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tamanhoArquivo, velocidade, tempo" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual e o tamanho do arquivo? &quot;" newline="True"/>
+            <input variable="tamanhoArquivo"/>
+            <output expression="&quot;Qual a velocidade da sua internet&quot;" newline="True"/>
+            <input variable="velocidade"/>
+            <assign variable="tempo" expression="tamanhoArquivo/velocidade"/>
+            <output expression="" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

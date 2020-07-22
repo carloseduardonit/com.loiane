@@ -1,0 +1,6 @@
+Tipo primativo;
+byte
+shot
+int
+long
+https://en.wikipedia.org/wiki/List_of_Unicode_characters

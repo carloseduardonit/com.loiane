@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-16 04:19:41 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIwMToyMToxOCAiOzI4OTc="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIwNDoxOTo0MSAiOzI7MzAxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe um numero: &quot;" newline="True"/>
+            <input variable="numero"/>
+            <output expression="&quot;O numero digitado foi: &quot;&amp;numero" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value="13.Fa&#231;a um Programa que pergunte quanto voc&#234; ganha por hora e o&#13;&#10;n&#250;mero de horas trabalhadas no m&#234;s. Calcule e mostre o total do seu&#13;&#10;sal&#225;rio no referido m&#234;s, sabendo-se que s&#227;o descontados 11% para o&#13;&#10;Imposto de Renda, 8% para o INSS e 5% para o sindicato, fa&#231;a um&#13;&#10;programa que nos d&#234;:&#13;&#10;. sal&#225;rio bruto.&#13;&#10;a. quanto pagou ao INSS.&#13;&#10;b. quanto pagou ao sindicato.&#13;&#10;c. o sal&#225;rio l&#237;quido.&#13;&#10;d. calcule os descontos e o sal&#225;rio l&#237;quido, conforme a tabela&#13;&#10;abaixo:&#13;&#10;+ Sal&#225;rio Bruto : R$ - IR (11%) : R$ - INSS&#13;&#10;(8%) : R$ - Sindicato ( 5%) : R$ = Sal&#225;rio&#13;&#10;Liquido : R$Obs.: Sal&#225;rio Bruto - Descontos = Sal&#225;rio L&#237;quido."/>
+        <attribute name="saved" value="2020-07-19 12:20:08 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE4OyIxMDoyNjoxNSAiOzI5MDE="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE5OyIxMjoyMDowOCAiOzU7MzAxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salarioBruto, valorINSS, valorIR, valorSind, salarioLiquido" type="Real" array="False" size=""/>
+            <declare name="IR, INSS, SIND" type="Real" array="False" size=""/>
+            <assign variable="IR" expression="11/100"/>
+            <assign variable="INSS" expression="8/100"/>
+            <assign variable="SIND" expression="5/100"/>
+            <output expression="&quot;Qual o seu salario Bruto? &quot;" newline="True"/>
+            <input variable="salarioBruto"/>
+            <assign variable="valorINSS" expression="salarioBruto*INSS"/>
+            <assign variable="valorIR" expression="salarioBruto*IR"/>
+            <assign variable="valorSind" expression="salarioBruto*SIND"/>
+            <assign variable="salarioLiquido" expression="salarioBruto-valorINSS-valorIR-valorSind"/>
+            <output expression="&quot;Salario Bruto: &quot;&amp;salarioBruto" newline="True"/>
+            <output expression="&quot;- Valor do imposto de Renda: &quot;&amp;valorIR" newline="True"/>
+            <output expression="&quot;- Valor do INSS: &quot;&amp;valorINSS" newline="True"/>
+            <output expression="&quot;- Valor do Sindicado: &quot;&amp;valorSind" newline="True"/>
+            <output expression="&quot;Salario Liquido: &quot;&amp;salarioLiquido" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
