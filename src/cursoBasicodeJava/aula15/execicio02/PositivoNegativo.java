@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cursoBasicodeJava.aula15.execicio2;
+package cursoBasicodeJava.aula15.execicio02;
 
 import java.util.Scanner;
 
