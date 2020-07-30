@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-30 06:48:51 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTMwOyIwNjozNzo0NiAiOzI5MDY="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTMwOyIwNjo0ODo1MSAiOzE7MzAxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="turno" type="String" array="False" size=""/>
+            <output expression="&quot;Qual o turno que vo&#231;e estuda? M para Matutino,V para Vespertino,N para Noturno.&quot;" newline="True"/>
+            <input variable="turno"/>
+            <if expression="turno == &quot;M&quot; || turno == &quot;Matutino&quot;">
+                <then>
+                    <output expression="&quot;Bom Dia!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="turno == &quot;V&quot; || turno == &quot;VESPERTINO&quot;">
+                        <then>
+                            <output expression="&quot;Bom tarde!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="turno == &quot;N&quot; || turno == &quot;Noturno&quot;">
+                                <then>
+                                    <output expression="&quot;Bom Noite!&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Informa&#231;&#227;o invalida!&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

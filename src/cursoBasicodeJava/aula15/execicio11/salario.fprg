@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-28 09:50:34 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTI4OyIwODowMjozNSAiOzI5MDU="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTI4OyIwOTo1MDozNCAiOzQ7MzAxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salarioVelho, salarioNovo, porcetagemAumento, aumento" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual o seu salario atual? &quot;" newline="True"/>
+            <input variable="salarioVelho"/>
+            <if expression="salarioVelho&lt;=280">
+                <then>
+                    <assign variable="porcetagemAumento" expression="20/100"/>
+                    <assign variable="salarioNovo" expression="salarioVelho + salarioVelho *porcetagemAumento"/>
+                    <output expression="&quot;O seu salario era &quot;&amp;salarioVelho&amp;&quot; taxa de aumento: &quot;&amp; (porcetagemAumento*100)&#13;&#10;&amp;&quot; % O seu salario ser&#225; &quot;&amp;salarioNovo" newline="True"/>
+                </then>
+                <else>
+                    <if expression="salarioVelho&lt;=700">
+                        <then>
+                            <assign variable="porcetagemAumento" expression="15/100"/>
+                            <assign variable="salarioNovo" expression="salarioVelho + salarioVelho *porcetagemAumento"/>
+                            <output expression="&quot;O seu salario era &quot;&amp;salarioVelho&amp;&quot; taxa de aumento: &quot;&amp; (porcetagemAumento*100)&#13;&#10;&amp;&quot; % O seu salario ser&#225; &quot;&amp;salarioNovo" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="salarioVelho&lt;=1500">
+                                <then>
+                                    <assign variable="porcetagemAumento" expression="10/100"/>
+                                    <assign variable="salarioNovo" expression="salarioVelho + salarioVelho *porcetagemAumento"/>
+                                    <output expression="&quot;O seu salario era &quot;&amp;salarioVelho&amp;&quot; taxa de aumento: &quot;&amp; (porcetagemAumento*100)&#13;&#10;&amp;&quot; % O seu salario ser&#225; &quot;&amp;salarioNovo" newline="True"/>
+                                </then>
+                                <else>
+                                    <assign variable="porcetagemAumento" expression="5/100"/>
+                                    <assign variable="salarioNovo" expression="salarioVelho + salarioVelho *porcetagemAumento"/>
+                                    <output expression="&quot;O seu salario era &quot;&amp;salarioVelho&amp;&quot; taxa de aumento: &quot;&amp; (porcetagemAumento*100)&#13;&#10;&amp;&quot; % O seu salario ser&#225; &quot;&amp;salarioNovo" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
