@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-08-07 12:09:04 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA4LTA2OyIxMTowNDo1NyAiOzI5MDI="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA4LTA3OyIxMjowOTowNCAiOzQ7MzAxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, media" type="Real" array="False" size=""/>
+            <declare name="conceito" type="String" array="False" size=""/>
+            <output expression="&quot;Informe a 1&#176; nota:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Informe a 2&#176; nota&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <assign variable="media" expression="(nota1+nota2)/2"/>
+            <if expression="media&lt;4">
+                <then>
+                    <assign variable="conceito" expression="&quot;E&quot;"/>
+                </then>
+                <else>
+                    <if expression="media&lt;6">
+                        <then>
+                            <assign variable="conceito" expression="&quot;D&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="media&lt;7.5">
+                                <then>
+                                    <assign variable="conceito" expression="&quot;C&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="media&lt;9">
+                                        <then>
+                                            <assign variable="conceito" expression="&quot;B&quot;"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="conceito" expression="&quot;A&quot;"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="conceito = &quot;A&quot; || conceito =&quot;B&quot; ||conceito = &quot;C&quot;">
+                <then>
+                    <output expression="&quot;A sua 1 nota: &quot;&amp;nota1&amp;&quot;    A sua 2 nota: &quot;&amp;nota2&amp;&quot;   Seu conceito: &quot;&amp;conceito &amp;&quot;   Aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A sua 1 nota: &quot;&amp;nota1&amp;&quot;    A sua 2 nota: &quot;&amp;nota2&amp;&quot;   Seu conceito: &quot;&amp;conceito &amp;&quot;  Reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
