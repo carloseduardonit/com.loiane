@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-08-06 08:51:58 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTMwOyIwNzoxNzozMiAiOzI5MDA="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA4LTA2OyIwODo1MTo1OCAiOzg7MzAyNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantidadeHora, taxaDesconto" type="Integer" array="False" size=""/>
+            <declare name="valorHora, salarioBruto, salarioLiquido" type="Real" array="False" size=""/>
+            <declare name="valorIR, valorINSS, totalDesconto" type="Real" array="False" size=""/>
+            <declare name="valorFGTS" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual a quantidade  de hora trabalhada?&quot;" newline="True"/>
+            <input variable="quantidadeHora"/>
+            <output expression="&quot;Qual o valor da sua hora?&quot;" newline="True"/>
+            <input variable="valorHora"/>
+            <assign variable="salarioBruto" expression="quantidadeHora * valorHora"/>
+            <assign variable="valorFGTS" expression="salarioBruto *11/100"/>
+            <assign variable="valorINSS" expression="salarioBruto * 10/100"/>
+            <if expression="salarioBruto&lt;=900.00">
+                <then>
+                    <assign variable="taxaDesconto" expression="0"/>
+                    <assign variable="valorIR" expression="salarioBruto*taxaDesconto/100"/>
+                    <assign variable="totalDesconto" expression="valorINSS+valorIR"/>
+                    <assign variable="salarioLiquido" expression="salarioBruto - totalDesconto"/>
+                    <call expression="imprimirValor(quantidadeHora,valorHora,salarioBruto,taxaDesconto,valorIR,valorINSS,valorFGTS,totalDesconto,salarioLiquido)"/>
+                </then>
+                <else>
+                    <if expression="salarioBruto&lt;=1500">
+                        <then>
+                            <assign variable="taxaDesconto" expression="5"/>
+                            <assign variable="valorIR" expression="salarioBruto*taxaDesconto/100"/>
+                            <assign variable="totalDesconto" expression="valorINSS+valorIR"/>
+                            <assign variable="salarioLiquido" expression="salarioBruto - totalDesconto"/>
+                            <call expression="imprimirValor(quantidadeHora,valorHora,salarioBruto,taxaDesconto,valorIR,valorINSS,valorFGTS,totalDesconto,salarioLiquido)"/>
+                        </then>
+                        <else>
+                            <if expression="salarioBruto&lt;=2500">
+                                <then>
+                                    <assign variable="taxaDesconto" expression="10"/>
+                                    <assign variable="valorIR" expression="salarioBruto*taxaDesconto/100"/>
+                                    <assign variable="totalDesconto" expression="valorINSS+valorIR"/>
+                                    <assign variable="salarioLiquido" expression="salarioBruto - totalDesconto"/>
+                                    <call expression="imprimirValor(quantidadeHora,valorHora,salarioBruto,taxaDesconto,valorIR,valorINSS,valorFGTS,totalDesconto,salarioLiquido)"/>
+                                </then>
+                                <else>
+                                    <assign variable="taxaDesconto" expression="20"/>
+                                    <assign variable="valorIR" expression="salarioBruto*taxaDesconto/100"/>
+                                    <assign variable="totalDesconto" expression="valorINSS+valorIR"/>
+                                    <assign variable="salarioLiquido" expression="salarioBruto - totalDesconto"/>
+                                    <call expression="imprimirValor(quantidadeHora,valorHora,salarioBruto,taxaDesconto,valorIR,valorINSS,valorFGTS,totalDesconto,salarioLiquido)"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="imprimirValor" type="None" variable="quantidadeHora">
+        <parameters>
+            <parameter name="quantidadeHora" type="Integer" array="False"/>
+            <parameter name="valorHora" type="Real" array="False"/>
+            <parameter name="salarioBruto" type="Real" array="False"/>
+            <parameter name="taxaDesconto" type="Integer" array="False"/>
+            <parameter name="valorIR" type="Real" array="False"/>
+            <parameter name="valorINSS" type="Real" array="False"/>
+            <parameter name="valorFGTS" type="Real" array="False"/>
+            <parameter name="totalDesconto" type="Real" array="False"/>
+            <parameter name="salarioLiquido" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Sal&#225;rio Bruto: ( &quot; &amp; valorHora &amp; &quot; * &quot; &amp; quantidadeHora &amp; &quot; ): &quot; &amp; salarioBruto &amp;&#13;&#10;&quot;           (-) IR (&quot; &amp; taxaDesconto &amp; &quot;%): &quot; &amp; valorIR &amp; &quot;       (-) INSS: &quot; &amp; valorINSS  &amp; &quot;          FGTS: &quot; &amp; valorFGTS &amp;&quot;       Total de Desconto: &quot; &amp; totalDesconto &amp; &quot;       Salario Liquido: &quot; &amp; salarioLiquido" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
