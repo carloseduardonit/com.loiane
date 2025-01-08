@@ -1,26 +1,28 @@
-# 💻 Objetos e Exercícios de Java com Loiane Groner 💻
+# 💻 Objetos e Exercícios de Java com Loiane Groner
 
-Repositório dedicado a projetos e exercícios de Java para reforçar conceitos de lógica de programação, estrutura de dados e boas práticas aprendidas com os cursos da Loiane Groner.
+Repositório dedicado a projetos e exercícios de Java ☕ para reforçar conceitos de lógica de programação, estrutura de dados e boas práticas aprendidas com os cursos da Loiane Groner.
 
 ```java
 public class BemVindo {
     public static void main(String[] args) {
-        System.out.println("Bem-vindo ao meu repositório GitHub!");
+        System.out.println("Bem-vindo a este repositório GitHub!");
     }
 }
 ```
 
-## Sobre o projeto
+## ℹ️ Sobre o projeto ℹ️
 
+<p style="text-align: justify;">
 Repositório é responsável pela ampliação dos meus conhecimentos voltado a programação em Java com a tutoria [Loiane Groner](https://github.com/loiane).  Eu já tinha feito este curso básico mas perdi tudo... Fazer o que não usava versionamento de código.
+</p>
 
-### 🛠 Ferramentas Utilizadas
+### 🛠 Ferramentas Utilizadas 🛠
 
 #### Para Logica
 
 * [**Flowgorithm-2.23.1**](http://www.flowgorithm.org/download/)
 
-#### Para Codificar
+#### ☕ Para Codificar em Java: ☕
 
 * [**Netbeans 8.2**](https://netbeans.org/downloads/8.2/rc/)
   * **JDK 1.8**
