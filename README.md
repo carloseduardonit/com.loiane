@@ -11,6 +11,7 @@ public class BemVindo {
 ```
 
 ---
+
 <details>
 
 <summary>
@@ -25,7 +26,13 @@ public class BemVindo {
 
 ---
 
-## ℹ️ Sobre o projeto ℹ️
+<details>
+
+<summary>
+
+## ℹ️ Sobre o projeto :point_left:
+
+</summary>
 
 <p style="text-align: justify;">
 Repositório é responsável pela ampliação dos meus conhecimentos voltado a programação em Java com a tutoria <a href="https://github.com/loiane">Loiane Groner</a>.  
@@ -33,7 +40,17 @@ Eu já tinha feito este curso básico mas perdi tudo...
 Fazer o que não usava versionamento de código.
 </p>
 
-## 🛠 Ferramentas Utilizadas 🛠
+</details>
+
+---
+
+<details>
+
+<summary>
+
+## 🛠 Ferramentas Utilizadas :point_left:
+
+</summary>
 
 ### 🧠 Para Logica: 🧠
 
@@ -59,3 +76,5 @@ Fazer o que não usava versionamento de código.
 ## 🖼️ Imagem adicionado: 🖼️
 
 * [**autor: freepik**](https://www.flaticon.com/br/autores/freepik)
+
+</details>
