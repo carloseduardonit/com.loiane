@@ -1,20 +1,13 @@
----
-description: >-
-  Este repositório ficara responsável por armazenar todos os curso que sera 
-  feitos  com a professora Loiane Groner
----
-
-# Repositório dos Cursos do Site Loiane.training
-
-![](.gitbook/assets/10610717_723738981035566_6227704356695997226_n.jpg)
+# Projetos e Exercícios de Java com Loiane Groner  
+Repositório dedicado a projetos e exercícios de Java para reforçar conceitos de lógica de programação, estrutura de dados e boas práticas aprendidas com os cursos da Loiane Groner.
 
 ```java
-Linkedin 
-public static void main(String[] args){
-    System.out.println("Hello, welcome to my GitHuB");
-    System.out.println("Ola, seja bem vindo ao meu GitHuB");
+public class BemVindo {
+    public static void main(String[] args) {
+        System.out.println("Bem-vindo ao meu repositório GitHub!");
+    }
 }
-```
+
 
 |  ![](.gitbook/assets/linkedin.png) [Linkedin](https://www.linkedin.com/in/carlos-eduardo-dos-s-figueiredo-76128837/_blank) | ![](.gitbook/assets/twitter.png)[Twitter](https://twitter.com/Carlao_Me_Ajuda) | ![](.gitbook/assets/github-mark-32px.png) [GitHub](https://github.com/carloseduardonit) |   |  |
 | :--- | :--- | :--- | :--- | :--- |
