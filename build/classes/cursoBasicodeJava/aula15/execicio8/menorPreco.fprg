@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-10 07:32:08 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTEwOyIwNjo1MzoyMiAiOzI4OTY="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTEwOyIwNzozMjowOCAiOzI7MzAwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="preco, preco1, preco2" type="Real" array="False" size=""/>
+            <declare name="menorPreco" type="Real" array="False" size=""/>
+            <assign variable="menorPreco" expression="200"/>
+            <output expression="&quot;Qual e o pre&#231;o do 1 produto&quot;" newline="True"/>
+            <input variable="preco"/>
+            <assign variable="menorPreco" expression="emenorPreco(menorPreco,preco)"/>
+            <output expression="&quot;Qual e o pre&#231;o do 2 produto&quot;" newline="True"/>
+            <input variable="preco1"/>
+            <assign variable="menorPreco" expression="emenorPreco(menorPreco,preco1)"/>
+            <output expression="&quot;Qual e o pre&#231;o do 3 produto&quot;" newline="True"/>
+            <input variable="preco2"/>
+            <assign variable="menorPreco" expression="emenorPreco(menorPreco,preco2)"/>
+            <call expression="imprimir(menorPreco)"/>
+        </body>
+    </function>
+    <function name="eMenorPreco" type="Real" variable="menorPreco">
+        <parameters>
+            <parameter name="menorPreco" type="Real" array="False"/>
+            <parameter name="preco" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <if expression="menorPreco &gt;= preco">
+                <then>
+                    <assign variable="menorPreco" expression="preco"/>
+                </then>
+                <else>
+                    <assign variable="menorPreco" expression="menorPreco"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="imprimir" type="None" variable="">
+        <parameters>
+            <parameter name="menorPreco" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;O menor preco e R$ &quot;&amp;menorPreco" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,8 @@
+aula 10 referente a introdução de variavel,sobre palavra reservada.
+convenção de nomenclatura
+a-z A-Z _ $ na primeira letra e & não funcionar
+a-z A-Z  _ $ 0-9 ´apartir da segunda letra.
+tipo primitivos:
+char, double, float, int, long, boolean.
+usar nome que faz sentido.
+

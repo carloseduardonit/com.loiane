@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-09 08:12:08 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwNzo1ODoyMCAiOzI5MDg="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTA5OyIwODoxMjowOCAiOzE7MzAxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe um numero:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero&gt;0">
+                <then>
+                    <output expression="&quot;O numero &quot;&amp;numero&amp;&quot; e positivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="numero&lt;0">
+                        <then>
+                            <output expression="&quot;O numero &quot;&amp;numero&amp;&quot; e negativo&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O numero e zero&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

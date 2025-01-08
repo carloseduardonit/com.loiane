@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-16 10:39:03 "/>
+        <attribute name="created" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIwOTo1MjowMyAiOzI5MDM="/>
+        <attribute name="edited" value="Q2FybG9zO0RFU0tUT1AtR05GR0tPSDsyMDIwLTA3LTE2OyIxMDozOTowMyAiOzE7MzAwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lado, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o valor do lado: &quot;" newline="True"/>
+            <input variable="lado"/>
+            <assign variable="area" expression="lado * lado"/>
+            <output expression="&quot;O lado do quadrado  e &quot;&amp;lado&amp;&quot; e a area: &quot;&amp;area&amp;&quot; e dobro da area: &quot;&amp;(2*area)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
