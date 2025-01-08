@@ -46,63 +46,65 @@ public class BemVindo {
 ## 📚 Para Estudar: 📚
 
   </summary>
-> [ ] Aula 01 - Introdução ao Curso de Java
-> [ ] Aula 02 - Instalação do Java e Eclipse
-> [ ] Aula 03 - Primeiro Programa Java
-> [ ] Aula 04 - Variáveis e Tipos Primitivos
-> [ ] Aula 05 - Operadores
-> [ ] Aula 06 - Estruturas Condicionais
-> [ ] Aula 07 - Estruturas de Repetição
-> [ ] Aula 08 - Arrays
-> [ ] Aula 09 - Métodos
-> [ ] Aula 10 - Tratamento de Exceções
-> [ ] Aula 11 - Orientação a Objetos
-> [ ] Aula 12 - Herança
-> [ ] Aula 13 - Polimorfismo
-> [ ] Aula 14 - Classes Abstratas
-> [ ] Aula 15 - Interfaces
-> [ ] Aula 16 - Pacotes
-> [ ] Aula 17 - Java.lang
-> [ ] Aula 18 - Java.util
-> [ ] Aula 19 - Java.io
-> [ ] Aula 20 - Java.sql
-> [ ] Aula 21 - Java.util.Date
-> [ ] Aula 22 - Java.util.Calendar
-> [ ] Aula 23 - Java.util.Locale
-> [ ] Aula 24 - Java.util.ResourceBundle
-> [ ] Aula 25 - Java.util.Scanner
-> [ ] Aula 26 - Java.util.Formatter
-> [ ] Aula 27 - Java.util.regex
-> [ ] Aula 28 - Java.util.Collections
-> [ ] Aula 29 - Java.util.Arrays
-> [ ] Aula 30 - Java.util.Comparator
-> [ ] Aula 31 - Java.util.List
-> [ ] Aula 32 - Java.util.Set
-> [ ] Aula 33 - Java.util.Map
-> [ ] Aula 34 - Java.util.Queue
-> [ ] Aula 35 - Java.util.Deque
-> [ ] Aula 36 - Java.util.Stack
-> [ ] Aula 37 - Java.util.Vector
-> [ ] Aula 38 - Java.util.LinkedList
-> [ ] Aula 39 - Java.util.ArrayList
-> [ ] Aula 40 - Java.util.HashSet
-> [ ] Aula 41 - Java.util.LinkedHashSet
-> [ ] Aula 42 - Java.util.TreeSet
-> [ ] Aula 43 - Java.util.HashMap
-> [ ] Aula 44 - Java.util.LinkedHashMap
-> [ ] Aula 45 - Java.util.TreeMap
-> [ ] Aula 46 - Java.util.PriorityQueue
-> [ ] Aula 47 - Java.util.ArrayDeque
-> [ ] Aula 48 - Java.util.AbstractCollection
-> [ ] Aula 49 - Java.util.AbstractList
-> [ ] Aula 50 - Java.util.AbstractSet
-> [ ] Aula 51 - Java.util.AbstractMap
-> [ ] Aula 52 - Java.util.AbstractQueue
-> [ ] Aula 53 - Java.util.AbstractSequentialList
-> [ ] Aula 54 - Java.util.AbstractMap.SimpleEntry
-> [ ] Aula 55 - Java.util.AbstractMap.SimpleImmutableEntry
-> [ ] Aula 56 - Java.util.AbstractMap.SimpleEntry
-> [ ] Aula 57 - Java.util.AbstractMap.SimpleImmutableEntry
+
+> - [ ] Aula 01 - Introdução ao Curso de Java
+> - [ ] Aula 02 - Instalação do Java e Eclipse
+> - [ ] Aula 03 - Primeiro Programa Java
+> - [ ] Aula 04 - Variáveis e Tipos Primitivos
+> - [ ] Aula 05 - Operadores
+> - [ ] Aula 06 - Estruturas Condicionais
+> - [ ] Aula 07 - Estruturas de Repetição
+> - [ ] Aula 08 - Arrays
+> - [ ] Aula 09 - Métodos
+> - [ ] Aula 10 - Tratamento de Exceções
+> - [ ] Aula 11 - Orientação a Objetos
+> - [ ] Aula 12 - Herança
+> - [ ] Aula 13 - Polimorfismo
+> - [ ] Aula 14 - Classes Abstratas
+> - [ ] Aula 15 - Interfaces
+> - [ ] Aula 16 - Pacotes
+> - [ ] Aula 17 - Java.lang
+> - [ ] Aula 18 - Java.util
+> - [ ] Aula 19 - Java.io
+> - [ ] Aula 20 - Java.sql
+> - [ ] Aula 21 - Java.util.Date
+> - [ ] Aula 22 - Java.util.Calendar
+> - [ ] Aula 23 - Java.util.Locale
+> - [ ] Aula 24 - Java.util.ResourceBundle
+> - [ ] Aula 25 - Java.util.Scanner
+> - [ ] Aula 26 - Java.util.Formatter
+> - [ ] Aula 27 - Java.util.regex
+> - [ ] Aula 28 - Java.util.Collections
+> - [ ] Aula 29 - Java.util.Arrays
+> - [ ] Aula 30 - Java.util.Comparator
+> - [ ] Aula 31 - Java.util.List
+> - [ ] Aula 32 - Java.util.Set
+> - [ ] Aula 33 - Java.util.Map
+> - [ ] Aula 34 - Java.util.Queue
+> - [ ] Aula 35 - Java.util.Deque
+> - [ ] Aula 36 - Java.util.Stack
+> - [ ] Aula 37 - Java.util.Vector
+> - [ ] Aula 38 - Java.util.LinkedList
+> - [ ] Aula 39 - Java.util.ArrayList
+> - [ ] Aula 40 - Java.util.HashSet
+> - [ ] Aula 41 - Java.util.LinkedHashSet
+> - [ ] Aula 42 - Java.util.TreeSet
+> - [ ] Aula 43 - Java.util.HashMap
+> - [ ] Aula 44 - Java.util.LinkedHashMap
+> - [ ] Aula 45 - Java.util.TreeMap
+> - [ ] Aula 46 - Java.util.PriorityQueue
+> - [ ] Aula 47 - Java.util.ArrayDeque
+> - [ ] Aula 48 - Java.util.AbstractCollection
+> - [ ] Aula 49 - Java.util.AbstractList
+> - [ ] Aula 50 - Java.util.AbstractSet
+> - [ ] Aula 51 - Java.util.AbstractMap
+> - [ ] Aula 52 - Java.util.AbstractQueue
+> - [ ] Aula 53 - Java.util.AbstractSequentialList
+> - [ ] Aula 54 - Java.util.AbstractMap.SimpleEntry
+> - [ ] Aula 55 - Java.util.AbstractMap.SimpleImmutableEntry
+> - [ ] Aula 56 - Java.util.AbstractMap.SimpleEntry
+> - [ ] Aula 57 - Java.util.AbstractMap.SimpleImmutableEntry
+
 </details>
 
 ---
