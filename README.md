@@ -12,6 +12,15 @@ public class BemVindo {
 
 ---
 
+> [!IMPORTANT]
+>
+> - Clique nos Titulos abaixo para ver os paragrafos conforme a demostração: :point_down:
+> <img src="/.gitbook/assets/demostracao.gif" alt="Demostração de com fazer">
+
+---
+
+- [Manual](/SUMMARY.md)
+
 <details>
 <summary>
 
