@@ -13,7 +13,6 @@ public class BemVindo {
 ---
 
 <details>
-
 <summary>
 
 ## 📬 Entre em contato pelo :point_left:
@@ -45,7 +44,15 @@ Fazer o que não usava versionamento de código.
 ---
 
 <details>
+<summary>
+  
+## 📚 Para Estudar: 📚
 
+</summary>
+</details>
+---
+
+<details>
 <summary>
 
 ## 🛠 Ferramentas Utilizadas :point_left:
@@ -68,13 +75,29 @@ Fazer o que não usava versionamento de código.
 * [**GitHub Desktop**](https://desktop.github.com/)
   * [**GitBook**](https://app.gitbook.com/)
 
-## 🌐 Sites acessados: 🌐
+</details>
+
+---
+
+<details>
+
+<summary>
+
+## 🌐 Sites acessados: :point_left:
+
+</summary>
 
 * [**https://loiane.training/**](https://loiane.training/)
 * [**Curso De Java Gratuito**](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)
+</details>
 
-## 🖼️ Imagem adicionado: 🖼️
+---
 
+<details>
+  <summary>
+
+## 🖼️ Imagem adicionado: :point_left:
+  </summary>
 * [**autor: freepik**](https://www.flaticon.com/br/autores/freepik)
 
 </details>
