@@ -19,8 +19,6 @@ public class BemVindo {
 
 ---
 
-- [Manual](/SUMMARY.md)
-
 <details>
 <summary>
 
