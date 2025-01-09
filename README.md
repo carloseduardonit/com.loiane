@@ -50,7 +50,7 @@ public class BemVindo {
 <details>
  <summary>
 
-## 📚 Para Estudar: 📚
+## 📚 Para Estudar: :point_left:
 
   </summary>
 
