@@ -2,6 +2,9 @@
 
 Repositório dedicado a projetos e exercícios de Java ☕ para reforçar conceitos de lógica de programação, estrutura de dados e boas práticas aprendidas com os cursos da Loiane Groner.
 
+https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r
+https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBoqYyFWOV_YbfBW80YGAGEI
+
 ```java
 public class BemVindo {
     public static void main(String[] args) {
