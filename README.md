@@ -1,4 +1,4 @@
-# 💻 Objetos e Exercícios de Java com Loiane Groner
+# 💻 Objetos e Exercícios de Java com Loiane Groner 🧊
 
 Repositório dedicado a projetos e exercícios de Java ☕ para reforçar conceitos de lógica de programação, estrutura de dados e boas práticas aprendidas com os cursos da Loiane Groner.
 
